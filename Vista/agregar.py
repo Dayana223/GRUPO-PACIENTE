@@ -9,7 +9,7 @@ class new_user(QWidget):
         
     def inicio(self):
         self.setGeometry(300,300,310,310)
-        self.setWindowTitle("Datos")
+        self.setWindowTitle("Datos  Paciente")
         self.generar_formulario()
         self.show()
         
