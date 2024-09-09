@@ -1,11 +1,11 @@
 import sys
 from PyQt6.QtWidgets import QApplication 
-from controlador.ControladorAgregarPacienteVista import ControladorAgregarPacienteVista
-from controlador.ControladorListaPacienteVista import ControladorListarPacientesVista
+from Controlador.ControladorAgregarPacienteVista import ControladorAgregarPacienteVista
+from Controlador.ControladorListaPacientesVista import ControladorListaPacientesVista
 
 
 
 app = QApplication(sys.argv)
 var =ControladorAgregarPacienteVista()
-var2=ControladorListarPacientesVista()
+var2=ControladorListaPacientesVista()
 app.exc()
