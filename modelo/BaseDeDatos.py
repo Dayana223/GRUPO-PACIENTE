@@ -5,7 +5,7 @@ class BaseDeDatos:
     def obtener_paciente():
         pass
 
-    def aguegar_paciente():
+    def agregar_paciente():
         pass
 
     def modificar_paciente():
